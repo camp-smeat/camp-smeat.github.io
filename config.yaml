@@ -1,0 +1,8 @@
+baseURL: https://campsmeat.com/
+languageCode: en-us
+defaultContentLanguage: "en"
+
+title: Camp Smeat
+theme: minimal
+metadataFormat: yaml
+publishDir: "docs"
