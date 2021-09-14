@@ -1,0 +1,34 @@
+$fa-font-path: "~font-awesome/fonts/";
+@import "~font-awesome/scss/font-awesome";
+@import "./shards-dashboard/shards-dashboards";
+@import "preloader";
+
+.bg-login-image {
+  background-image: url("../../camp_smeat/static/build/bg-login-image.jpg");
+  background-size: 475px 410px;
+}
+
+.alert-message {
+  @extend .alert-info;
+}
+
+.typeahead-form-group {
+  position: relative;
+}
+.typeahead-list-group {
+  position: absolute;
+  width: 100%;
+  top: 38px;
+  left: 0;
+  z-index: 1;
+}
+.typeahead-list-group-item {
+  padding: 0.3rem 1.3rem;
+  background-color: #fff;
+}
+.typeahead-list-group-item:hover {
+  cursor: pointer;
+  background: #646464;
+  color: #fff;
+}
+

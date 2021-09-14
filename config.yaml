@@ -3,6 +3,6 @@ languageCode: en-us
 defaultContentLanguage: "en"
 
 title: Camp Smeat
-theme: minimal
+theme: smeat
 metadataFormat: yaml
 publishDir: "docs"

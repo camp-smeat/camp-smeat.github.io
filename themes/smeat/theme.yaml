@@ -1,0 +1,26 @@
+---
+name: Smeat
+license: MIT
+licenselink: https://github.com/yourname/yourtheme/blob/master/LICENSE
+description: ""
+homepage: "http://example.com/"
+min_version: "0.41.0"
+
+author:
+  name: ""
+  homepage: ""
+
+menu:
+  main:
+    - name: "Home"
+      pre: home
+      url: /
+      weight: 1
+    - name: Posts
+      pre: pen-tool
+      url: /posts/
+      weight: 2
+    - name: Tags
+      pre: tag
+      url: /tags/
+      weight: 3

@@ -1,0 +1,14 @@
+<!doctype html>
+<html class="no-js h-100" lang="en">
+{{- partial "head.html" . -}}
+
+<body class="h-100">
+    {{- partial "header.html" . -}}
+
+    {{- block "main" . }}{{- end }}
+
+    <!-- end container -->
+
+    {{- partial "script.html" . -}}
+</body>
+</html>
